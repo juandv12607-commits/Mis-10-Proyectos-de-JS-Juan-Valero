@@ -1033,5 +1033,5 @@
     // PIE DE PÁGINA
     // ============================================================
     const f = document.createElement('footer');
-    f.textContent = 'Juan Diego Valero 2026 Github:';
+    f.textContent = 'Juan Diego Valero 2026 Github: https://github.com/juandv12607-commits/Mis-10-Proyectos-de-JS-Juan-Valero';
     main.appendChild(f);
