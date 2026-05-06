@@ -161,6 +161,7 @@
     class lista {
         constructor() {
             this.i = document.createElement('input');   // Campo para nueva tarea
+            this.i.placeholder = 'Escribe una Tarea';
             this.b = document.createElement('button'); // Botón agregar
             this.b.textContent = 'Ingresar Tarea';
             this.l = document.createElement('ol');     // Lista ordenada de tareas
