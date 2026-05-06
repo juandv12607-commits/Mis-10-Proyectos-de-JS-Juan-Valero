@@ -161,7 +161,7 @@
     class lista {
         constructor() {
             this.i = document.createElement('input');   // Campo para nueva tarea
-            this.i.placeholder = 'Escribe una Tarea';
+            this.i.placeholder = 'Escribe...';
             this.b = document.createElement('button'); // Botón agregar
             this.b.textContent = 'Ingresar Tarea';
             this.l = document.createElement('ol');     // Lista ordenada de tareas
@@ -874,6 +874,8 @@
             this.i10.width = 200; this.i10.height = 200;
             this.i11.width = 200; this.i11.height = 200;
             this.i12.width = 200; this.i12.height = 200;
+
+            this.i1.style.borderRadius = 20;
             
             // Agrupar imágenes en secciones (filas de 3)
             this.s1 = document.createElement('section');
