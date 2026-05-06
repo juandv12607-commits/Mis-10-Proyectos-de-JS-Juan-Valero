@@ -40,7 +40,8 @@
         /* Responsive: ancho completo en pantallas mayores a 200px */
         @media (min-width: 200px) {
             body { width: 100%; }
-                div { width: 70%; }
+            div { width: 80%; }
+            input { width: 60%; }
         }
 
         /* Estilo para el fondo oscuro detrás del diálogo */
