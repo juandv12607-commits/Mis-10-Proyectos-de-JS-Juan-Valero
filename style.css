@@ -37,8 +37,8 @@
             }
         }
 
-        /* Responsive: ancho completo en pantallas mayores a 500px */
-        @media (min-width: 400px) {
+        /* Responsive: ancho completo en pantallas mayores a 200px */
+        @media (min-width: 200px) {
             body { width: 100%; }
         }
 
